@@ -1,6 +1,6 @@
 # 项目信息和小游戏入口
 import pygame
-from minigames import lightcycle_game, minecar_game, soar_game, chase_game
+from minigame import lightcycle_game, minecar_game, soar_game, chase_game
 
 projects = [
     {"name": "创极速光轮", "pos": (150, 200), "color": (0, 190, 255), "minigame": lightcycle_game},
